@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "174335289964",
+    "firebase_url": "https://voyageur-bb6f0.firebaseio.com",
+    "project_id": "voyageur-bb6f0",
+    "storage_bucket": "voyageur-bb6f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174335289964:android:0bffc08ecc96d06c160649",
+        "android_client_info": {
+          "package_name": "com.example.voyageur"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "174335289964-n05ke1edkf7idhqhe5g5lj02oblr2dvp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.voyageur",
+            "certificate_hash": "88d22aee9eb32fd3714198d4170655193d5afcaa"
+          }
+        },
+        {
+          "client_id": "174335289964-1cidf9tq8moae0ghuhats81ubt5lgngn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwkOTRJ3zTWJMj4f_y3JUCnUW_M0DmAEM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "174335289964-1cidf9tq8moae0ghuhats81ubt5lgngn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

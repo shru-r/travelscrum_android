@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/landing_page_2"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:fontFamily="@font/lora_bold"
+        android:text="Pick a place"
+        android:textColor="#194B7F"
+        android:textSize="32sp" />
+
+    <!-- place -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:hint="Destination"
+        android:layout_margin="8dp"
+        android:id="@+id/destination" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:fontFamily="@font/lora_bold"
+        android:text="Pick a date"
+        android:textColor="#194B7F"
+        android:textSize="32sp" />
+
+    <!--date-->
+    <EditText
+        android:layout_margin="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/date"
+        android:clickable="true"
+        android:editable="false"
+        android:hint="Date"
+        android:textSize="32sp"
+        />
+
+
+    <Button
+        android:id="@+id/get_updates"
+        android:layout_marginTop="350dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundedbutton"
+        android:fontFamily="@font/lora"
+        android:layout_gravity="center"
+        android:padding="12dp"
+        android:shadowColor="@color/colorPrimaryDark"
+        android:text="Get Updates"
+        android:textColor="#194B7F"
+        android:textSize="24sp" />
+</LinearLayout>
